@@ -17,3 +17,18 @@ const product = {
   prix: 2.99,
   status: "disponible"
 }
+
+const modifyObjectValue = (a,b,c) => {
+
+  let object = a;
+  
+  object[c] = b;
+
+  return object;
+
+
+}
+
+let modifyProduct = modifyObjectValue(product,'coucou', 'name');
+
+console.log(modifyProduct);
