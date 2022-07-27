@@ -17,8 +17,8 @@ const reverseArray = (t) => {
 
 	if (!Array.isArray(t)) {
 		return false;
-	} 
-	
+	}
+
 	for(let i = t.length -1; i >= 0; i--){
 		newArray.push(t[i]);
 	}
@@ -37,3 +37,5 @@ const fu = (nb) => {
 let fuResult = fu(18)
 
 console.log(fuResult)
+
+//OK

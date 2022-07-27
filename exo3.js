@@ -21,7 +21,7 @@ const product = {
 const modifyObjectValue = (a,b,c) => {
 
   let object = a;
-  
+
   object[c] = b;
 
   return object;
@@ -32,3 +32,5 @@ const modifyObjectValue = (a,b,c) => {
 let modifyProduct = modifyObjectValue(product,'coucou', 'name');
 
 console.log(modifyProduct);
+
+//OK

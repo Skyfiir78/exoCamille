@@ -36,3 +36,5 @@ const modifyArrayByIndex = (a, b,c) => {
 let arrayModify = modifyArrayByIndex(arr, 1, 'Bonjour');
 
 console.log(arrayModify);
+
+//OK
