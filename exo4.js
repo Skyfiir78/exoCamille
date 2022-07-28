@@ -10,3 +10,21 @@ const generateRandomArray = require("./utils/generateRandomArray.js")
 
 //Tableau a utiliser
 const arr = generateRandomArray()
+
+
+
+const countInArray = (array, e) => {
+
+  let newArray = array;
+
+  let elementToCount = e;
+
+  let foundElement = newArray.find(element => elementToCount === elementToCount);
+
+  return foundElement;
+
+}
+
+let result = countInArray(arr, 9);
+
+console.log(result);
