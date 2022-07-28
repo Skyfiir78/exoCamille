@@ -13,11 +13,11 @@ const arr = generateRandomArray()
 
 
 
-const countInArray = (array, e) => {
+const countInArray = (array, elementToCount) => {
 
   let newArray = array;
 
-  let elementToCount = e;
+  // let elementToCount = e;
 
   let foundElement = newArray.find(element => elementToCount === elementToCount);
 
