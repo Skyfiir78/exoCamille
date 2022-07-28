@@ -15,11 +15,8 @@ const arr = generateRandomArray()
 
 const countInArray = (array, elementToCount) => {
 
-  let newArray = array;
 
-  // let elementToCount = e;
-
-  let foundElement = newArray.find(element => elementToCount === elementToCount);
+  let foundElement = array.find(element => elementToCount === elementToCount);
 
   return foundElement;
 
