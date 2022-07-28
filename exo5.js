@@ -1,13 +1,8 @@
 /*
-  Description:
-  On va reprendre la problematique de ton projet en plus simplifier pour commencer
-
+  Description: On va reprendre la problematique de ton projet en plus simplifier pour commencer
   tu a un tableau d'objet qui sont des produit et de l'autre coter un objet contenant l'id du produit, sa couleur et sa quantiter
-
   tu va devoir recuperer la bonne data pour remplir ton produit des donnees manquante
 */
-
-
 /*
   Astuce essai d'utilier le spread operator: un exmple ci dessous
 
@@ -21,7 +16,6 @@
 
 */
 
-
 const products = require("./utils/data/products") // Les produits
 
 const storedProducts = { //L'objet a completer
@@ -29,5 +23,19 @@ const storedProducts = { //L'objet a completer
   color: "red",
   quantity: 3
 }
-
 // A toi de jouer ma patate <3
+
+
+
+
+
+
+
+const finalProduct = {
+  ...storedProducts,
+
+  ...products[2],
+
+}
+
+console.log(finalProduct);
